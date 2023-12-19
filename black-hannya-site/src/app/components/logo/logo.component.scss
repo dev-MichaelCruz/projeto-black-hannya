@@ -1,0 +1,16 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+}
+
+.container-fluid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    background-color: orange;
+    max-width: 90%;
+    height: 20vh;
+    border-radius: .5rem;
+}
+
