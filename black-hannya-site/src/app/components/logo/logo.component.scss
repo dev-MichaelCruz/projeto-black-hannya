@@ -20,11 +20,21 @@
     width: 100%;
 }
 
-.row {
+.row-cols-3 {
     align-items: center;
+    width: 100%;
 }
 
-.logo-image {
-    margin: 10px;
+.logo-name {
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.logo-image-left, .logo-image-right {
+    margin: 10px 0 10px 0;
     max-height: 19vh;
+}
+
+.logo-image-left {
+    justify-self: left;
 }
