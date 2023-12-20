@@ -1,61 +1,62 @@
+
 <div class="container-fluid mt-3">
-
-    <div class="container-cards mt-2">
-
+    
+    <div class="container-cards mt-3 mb-3">
+        <h2 class="mb-3">Conheça nosos tatuadores</h2>
+        
         <div class="row">
-
+            
             <div class="col-sm-3">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title">NOME AQUI</h3>
+                        <h3 class="card-title">Eduardo Carvalho</h3>
                         <img class="card-image" src="\assets\images\nest_logo.png" alt="">
                         <h5 class="card-description">DESCRIÇÃO DO TATUADOR<br> Aqui vai um texto falando um pouco do tatuador em questão e bla
                             bla bla bla</h5>
-                        <button class="btn btn-primary">Botao para as fotos</button>
+                            <button class="btn btn-primary" [routerLink]="['/edu']">Botao para as fotos</button>
+                        </div>
+                        
+                    </div>
+                </div>
+                
+                <div class="col-sm-3">
+                    <div class="card">
+                        <div class="card-body">
+                            <h3 class="card-title">Jack Salmazo</h3>
+                            <img class="card-image" src="\assets\images\nest_logo.png" alt="">
+                            <h5 class="card-description">DESCRIÇÃO DO TATUADOR<br> Aqui vai um texto falando um pouco do tatuador em questão e bla bla bla bla</h5>
+                            <button class="btn btn-primary" (click)="redirecionar('jack')">Botao para as fotos</button>
+                        </div>
+                        
+                    </div>
+                </div>
+            
+            <div class="col-sm-3">
+                <div class="card">
+                    <div class="card-body">
+                        <h3 class="card-title">Michael Caxa</h3>
+                        <img class="card-image" src="\assets\images\nest_logo.png" alt="">
+                        <h5 class="card-description">DESCRIÇÃO DO TATUADOR<br> Aqui vai um texto falando um pouco do tatuador em questão e bla bla bla bla</h5>
+                        <button class="btn btn-primary" (click)="redirecionar('caxa')">Botao para as fotos</button>
                     </div>
                     
                 </div>
             </div>
-
+            
             <div class="col-sm-3">
                 <div class="card">
                     <div class="card-body">
-                        <h3 class="card-title">NOME AQUI</h3>
+                        <h3 class="card-title">Rogério Oliveira</h3>
                         <img class="card-image" src="\assets\images\nest_logo.png" alt="">
                         <h5 class="card-description">DESCRIÇÃO DO TATUADOR<br> Aqui vai um texto falando um pouco do tatuador em questão e bla bla bla bla</h5>
-                        <button class="btn btn-primary">Botao para as fotos</button>
+                        <button class="btn btn-primary" (click)="redirecionar('rogerio')">Botao para as fotos</button>
                     </div>
-            
+                    
                 </div>
             </div>
-
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title">NOME AQUI</h3>
-                        <img class="card-image" src="\assets\images\nest_logo.png" alt="">
-                        <h5 class="card-description">DESCRIÇÃO DO TATUADOR<br> Aqui vai um texto falando um pouco do tatuador em questão e bla bla bla bla</h5>
-                        <button class="btn btn-primary">Botao para as fotos</button>
-                    </div>
             
-                </div>
-            </div>
-
-            <div class="col-sm-3">
-                <div class="card">
-                    <div class="card-body">
-                        <h3 class="card-title">NOME AQUI</h3>
-                        <img class="card-image" src="\assets\images\nest_logo.png" alt="">
-                        <h5 class="card-description">DESCRIÇÃO DO TATUADOR<br> Aqui vai um texto falando um pouco do tatuador em questão e bla bla bla bla</h5>
-                        <button class="btn btn-primary">Botao para as fotos</button>
-                    </div>
-            
-                </div>
-            </div>
-
         </div>
-       
-
+        <router-outlet></router-outlet>
     </div>
-
+    
 </div>

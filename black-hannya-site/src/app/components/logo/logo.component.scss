@@ -7,34 +7,31 @@
     display: flex;
     align-items: center;
     text-align: center;
-    background-color: orange;
+    align-items: center;
+    background-color: rgb(170, 170, 170);
     max-width: 90%;
     height: auto;
     border-radius: .5rem;
-
-    font-family:Verdana, Geneva, Tahoma, sans-serif
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
 }
 
 .container {
     height: auto;
     width: 100%;
+    margin: .5rem;
 }
 
 .row-cols-3 {
     align-items: center;
-    width: 100%;
+}
+
+.logo-image {
+    // 
+    height: 200px;
 }
 
 .logo-name {
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.logo-image-left, .logo-image-right {
-    margin: 10px 0 10px 0;
-    max-height: 19vh;
-}
-
-.logo-image-left {
-    justify-self: left;
+    margin: 0 auto;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-size: 80px;
 }
